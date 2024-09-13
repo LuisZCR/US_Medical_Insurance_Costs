@@ -23,7 +23,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, mean_absolute_error 
 
 
-us_insurance_df = pd.read_csv(r"C:\Users\Luis\Downloads\python-portfolio-project-US-medical\python-portfolio-project-starter-files\insurance.csv")
+us_insurance_df = pd.read_csv(r"https://github.com/LuisZCR/US_Medical_Insurance_Costs/blob/main/insurance.csv")
 
 
 # Import our **Class** created for making filters on the Dataframe.
